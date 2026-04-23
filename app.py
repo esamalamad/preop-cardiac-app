@@ -167,7 +167,7 @@ method = None
 left, right = st.columns([1.15, 0.85], gap="large")
 
 with left:
-    st.markdown("### 1) Immediate red flags — choose whichever applies")
+    st.markdown("### 1) Choose whichever applies")
     st.caption("If none apply, continue to Step 2.")
 
     healthy = st.checkbox("Healthy patient (no CV disease/risk factors/symptoms)")
